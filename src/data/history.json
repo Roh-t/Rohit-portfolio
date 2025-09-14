@@ -1,0 +1,14 @@
+[
+  {
+    "role": "XONIK",
+    "organisation": "XONIK GROUP",
+    "startDate": "May, 2025",
+    "endDate": "Present",
+    "experiences": [
+      "Developed responsive UIs with React",
+      "Built scalable APIs using Node.js",
+      "Created automation workflows in n8n"
+    ],
+    "imageSrc": "history/xonik.png"
+  }
+]

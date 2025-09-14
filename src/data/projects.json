@@ -1,0 +1,56 @@
+[
+  {
+    "title": "AI-Integrated LMS | MERN, Gemini AI, Razorpay",
+    "imageSrc": "projects/lms1.png",
+    "description": "AI-powered LMS offering smart search, role-based dashboards, secure login, and online payments.",
+    "skills": [
+      "MERN",
+      "Gemini AI",
+      "Razorpay",
+      "Google OAuth",
+      "Redux Toolkit",
+      "Tailwind CSS"
+    ],
+    "demo": "https://ro-academic-x-1.onrender.com",
+    "source": "https://github.com/Roh-t/Ro-Academic-X"
+  },
+  {
+    "title": "Full-Stack LMS Website | MERN, Clerk Auth, Stripe",
+    "imageSrc": "projects/lms2.png",
+    "description": "Modern LMS with course management, secure auth, seamless payments, and responsive UI.",
+    "skills": [
+      "MERN",
+      "Clerk Auth",
+      "Stripe",
+      "Vercel",
+      "Responsive UI",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "demo": "https://knowledge-nest-7o67.vercel.app/",
+    "source": "https://github.com/Roh-t/Knowledge-Nest"
+  },
+  {
+    "title": "Blog Application | MERN, Redux, Cloudinary, JWT",
+    "imageSrc": "projects/mern_blog.png",
+    "description": "Full-stack blog platform with posts, comments, categories, search, secure auth, and image uploads.",
+    "skills": [
+      "MERN",
+      "Redux",
+      "JWT",
+      "Cloudinary",
+      "Vercel",
+      "Google Login",
+      "Express",
+      "Responsive UI",
+      "Node.js",
+      
+      "MongoDB",
+      "React"
+    ],
+    "demo": "https://mern-blog-sfmo.vercel.app/",
+    "source": "https://github.com/Roh-t/mern-blog"
+  }
+]
