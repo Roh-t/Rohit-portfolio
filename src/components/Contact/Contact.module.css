@@ -19,7 +19,7 @@
 }
 
 .text p {
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -57,8 +57,20 @@
     flex-direction: column;
     align-items: center;
   }
+  
+  .text p {
+    font-size:21px;
+  }
+  .link a {
+    font-size: 21px;
+  }
 
   .links {
     align-items: center;
+    font-size:21px;
   }
+  .text h2 {
+    font-size:70px;
+  }
+
 }
