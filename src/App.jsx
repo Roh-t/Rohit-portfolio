@@ -5,17 +5,35 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import Spotify from "./pages/Spotify";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <div className={styles.App}>
+        <Navbar />
+
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <About />
+                <Experience />
+                <Projects />
+                <Contact />
+              </>
+            }
+          />
+
+          {/* New Spotify Route */}
+          <Route path="/spotify" element={<Spotify />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

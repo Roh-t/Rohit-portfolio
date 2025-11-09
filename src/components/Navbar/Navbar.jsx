@@ -38,6 +38,11 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+
+          {/* ✅ Added Spotify Route Link */}
+          <li>
+            <a href="/spotify">Spotify</a>
+          </li>
         </ul>
       </div>
     </nav>
