@@ -41,7 +41,9 @@ export const Navbar = () => {
 
           {/* ✅ Added Spotify Route Link */}
           <li>
-            <a href="/spotify">Spotify</a>
+            <a href="https://spotify-api-integration-yu38.vercel.app/spotify" target="_blank" rel="noopener noreferrer">
+              Spotify
+            </a>
           </li>
         </ul>
       </div>
